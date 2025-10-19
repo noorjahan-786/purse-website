@@ -25,7 +25,6 @@ const App = () => {
       <div className="sm:hidden px-4 py-2 shadow-md bg-white top-[60px] z-40">
         <SearchBar className="w-full" />
       </div>
-      
       <Routes>
         <Route path='/' element ={<Home/>}/>
         <Route path='/collection' element={<Collection/>}/>
@@ -38,7 +37,6 @@ const App = () => {
         <Route path='/place-order' element={<PlaceOrder/>}/>
         <Route path='/orders' element={<Orders/>} />
       </Routes>
-      
       <Footer/>
     </div>
   )
